@@ -1,7 +1,7 @@
 # CS 3030 Final Project Implementation
 
 ## Purpose
-This program is designed to run a Greenhouse
+This program "green.py" is designed to run a Greenhouse
 At 15 minute intervals it will be run to check:
 1. Sunlight. If between the hours of 0800 - 1600 the sunlight senors do not detect enough sunlight outside the internatl lights will come on to ensure the best growing contitions.
 2. Temperature. It will continually monitor that the temperature stay within the proper range for plant development. If deviations are found it will have the ability to access the heating and cooling systems.
@@ -9,7 +9,7 @@ At 15 minute intervals it will be run to check:
 
 
 ## Agruments
-This program is designed to run entirely on it's own however it will support the following agrumnets when run manualy.
+green.py is designed to run entirely on it's own however it will support the following agrumnets when run manually.
 -a | --all		This will run the file and present all information
 -s | --sun		This will present the current light level
 -t | --temperature	This will present the current room temperature
